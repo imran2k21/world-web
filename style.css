@@ -47,6 +47,8 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 0px;
+    color: gray;
+
 }
 
 .banner ul li{
@@ -56,6 +58,19 @@ header{
     font-weight: 300;
 
 }
+
+/* .banner ul li:not(:first-child):before{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: -25px;
+    background-color: #434d90;
+    border-radius: 50px;
+} */
+
+
 
 .earth{
     position: relative;
@@ -79,14 +94,14 @@ header{
 
 .icon{
     position: absolute;
-    width: 50px;
-    height: 50px;
-    padding: 14px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
     border-radius: 50%;
     border: 1px solid white;
     background-color: #292c45;
     transition: all ease 0.5s;
-    color: white;
-
+    
 }
+
 
